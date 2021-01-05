@@ -48,7 +48,6 @@ public class CheckBox1 extends BaseTest2
   {
 	  report.endTest(test);
 	  report.flush();
-	  
 	  driver.quit();
   }
 
