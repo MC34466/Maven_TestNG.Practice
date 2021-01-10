@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SampleSuite]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="SampleTest(failed)">
+    <classes>
+      <class name="com.DecMavenpackage.DecMavenProject.TNG_02">
+        <methods>
+          <include name="startProcess"/>
+          <include name="amazon"/>
+          <include name="endProcess"/>
+        </methods>
+      </class> <!-- com.DecMavenpackage.DecMavenProject.TNG_02 -->
+    </classes>
+  </test> <!-- SampleTest(failed) -->
+</suite> <!-- Failed suite [SampleSuite] -->

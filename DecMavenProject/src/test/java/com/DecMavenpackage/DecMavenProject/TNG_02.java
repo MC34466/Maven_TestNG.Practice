@@ -2,6 +2,7 @@ package com.DecMavenpackage.DecMavenProject;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.LogStatus;
@@ -10,6 +11,7 @@ public class TNG_02 extends BaseTest2
 {
 
   @BeforeMethod
+  @Parameters("browser")
   public void startProcess() throws Exception 
   {
 	  init();

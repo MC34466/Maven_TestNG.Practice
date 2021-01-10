@@ -8,15 +8,29 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">SuiteParallel</th></tr>
-<tr><td><a href="#t0">TestParallel</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">2,157</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">TestParallel2</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">2,007</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num">4,164</th><th colspan="2"></th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">227</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SuiteParallel</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestParallel &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">SuiteA.SuiteA1</td><td><a href="#m0">f</a></td><td rowspan="1">1610289170307</td><td rowspan="1">2023</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">TestParallel2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">SuiteA.SuiteA2</td><td><a href="#m1">f</a></td><td rowspan="1">1610289172490</td><td rowspan="1">2002</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.DecMavenpackage.DecMavenProject.TNG_02</td><td><a href="#m0">startProcess</a></td><td rowspan="1">1610298513325</td><td rowspan="1">158</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.DecMavenpackage.DecMavenProject.TNG_02</td><td><a href="#m1">endProcess</a></td><td rowspan="1">1610298513500</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.DecMavenpackage.DecMavenProject.TNG_02</td><td><a href="#m2">amazon</a></td><td rowspan="1">1610298513496</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>TestParallel</h2><h3 id="m0">SuiteA.SuiteA1#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>TestParallel2</h2><h3 id="m1">SuiteA.SuiteA2#f</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.DecMavenpackage.DecMavenProject.TNG_02#startProcess</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoSuchFieldError: VERSION_2_3_23
+	at com.relevantcodes.extentreports.HTMLReporter.start(HTMLReporter.java:76)
+	at com.relevantcodes.extentreports.Report.attach(Report.java:318)
+	at com.relevantcodes.extentreports.ExtentReports.&lt;init&gt;(ExtentReports.java:86)
+	at com.relevantcodes.extentreports.ExtentReports.&lt;init&gt;(ExtentReports.java:420)
+	at com.DecMavenpackage.DecMavenProject.extentmanager.getInstance(extentmanager.java:16)
+	at com.DecMavenpackage.DecMavenProject.BaseTest2.init(BaseTest2.java:62)
+	at com.DecMavenpackage.DecMavenProject.TNG_02.startProcess(TNG_02.java:17)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.DecMavenpackage.DecMavenProject.TNG_02#endProcess</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.DecMavenpackage.DecMavenProject.TNG_02#amazon</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoSuchFieldError: VERSION_2_3_23
+	at com.relevantcodes.extentreports.HTMLReporter.start(HTMLReporter.java:76)
+	at com.relevantcodes.extentreports.Report.attach(Report.java:318)
+	at com.relevantcodes.extentreports.ExtentReports.&lt;init&gt;(ExtentReports.java:86)
+	at com.relevantcodes.extentreports.ExtentReports.&lt;init&gt;(ExtentReports.java:420)
+	at com.DecMavenpackage.DecMavenProject.extentmanager.getInstance(extentmanager.java:16)
+	at com.DecMavenpackage.DecMavenProject.BaseTest2.init(BaseTest2.java:62)
+	at com.DecMavenpackage.DecMavenProject.TNG_02.startProcess(TNG_02.java:17)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -1,6 +1,7 @@
 package com.DecMavenpackage.DecMavenProject;
 
 import java.io.FileInputStream;
+import java.util.Date;
 import java.util.Properties;
 
 import org.apache.log4j.PropertyConfigurator;
@@ -8,7 +9,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -23,9 +23,15 @@ public class BaseTest2
 	public static Properties parentprop;
 	public static Properties childprop;
 	public static Properties orprop;
-	public static ExtentReports report; 
+	public static ExtentReports report ; 
 	public static ExtentTest test;
+	public static String filepath;
 	 
+	static
+	{
+		Date dt = new Date();
+		filepath = dt.toString().replace(':', '_').replace(' ','_');
+	}
 	
 	
 	public static void init() throws Exception

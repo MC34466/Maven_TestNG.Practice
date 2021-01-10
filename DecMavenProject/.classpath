@@ -26,5 +26,17 @@
 	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/testng-6.14.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/freemarker-2.3.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/freemarker-2.3.30.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/google-collect-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/google-collect-snapshot-20080530.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/guava-23.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/selenium-java-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/xmlbeans-3.1.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
