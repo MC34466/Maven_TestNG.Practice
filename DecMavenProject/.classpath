@@ -24,5 +24,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/testng-6.14.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dell/Desktop/Nov_Sel_Drivers/log4j-1.2.17.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

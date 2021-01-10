@@ -43,7 +43,7 @@ public class BaseTest2
 		fis = new FileInputStream(projectPath+"/"+e+".properties");
 		childprop = new Properties();
 		childprop.load(fis);
-		String c = childprop.getProperty("amazonurl");
+		String c = childprop.getProperty("googleurl");
 		System.out.println(c);	
 		
 		fis = new FileInputStream(projectPath+"/or.properties");
@@ -81,7 +81,7 @@ public class BaseTest2
 		if(browser.equals("chrome"))
 		{
 			driver = new ChromeDriver();
-			System.setProperty(ChromeDriverService.CHROME_DRIVER_LOG_PROPERTY, "false");
+			//System.setProperty(ChromeDriverService.CHROME_DRIVER_LOG_PROPERTY, "false");
 		}
 		//else if(p.getProperty(browser).equals("firefox"))
 		else if(browser.equals("firefox"))	
@@ -96,7 +96,8 @@ public class BaseTest2
 //		driver.get(url);
 		
 		//Fully Dynamic: TC_002
-		driver.get(childprop.getProperty(url));
+		//driver.get(childprop.getProperty(url));
+		driver.navigate().to(childprop.getProperty(url));
 	}
 	
 	public static void search(String locatorKey, String category) 

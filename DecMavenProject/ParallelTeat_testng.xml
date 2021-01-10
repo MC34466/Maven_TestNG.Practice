@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteParallel">
+  <test thread-count="5" name="TestParallel">
+    <classes>
+      <class name="SuiteA.SuiteA1"/>
+    </classes>
+  </test> <!-- TestParallel -->
+  
+  <test thread-count="5" name="TestParallel2">
+    <classes>
+      <class name="SuiteA.SuiteA2"/>
+    </classes>
+  </test> <!-- TestParallel -->
+</suite> <!-- SuiteParallel -->
